@@ -1,0 +1,99 @@
+<!DOCTYPE html>
+<html lang="ar" dir="rtl">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>منصة تدريب الطاقة</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css">
+    <link rel="stylesheet" href="script.js">
+
+</head>
+<body>
+    <nav class="navbar">
+        <ul>
+            <a href="index.html">
+                <li>الرئيسية</li>
+            </a>
+            <a href="courses.html">
+                <li>الدورات التدريبية</li>
+            </a>
+            <a href="contact.html">
+                <li>تواصل معنا</li>
+            </a>
+        </ul>
+        <div class="logo-container">
+            <img src="images/logo.png" alt="طاقة+ Logo">
+        </div>
+    </nav>
+    
+        <section id="form" class="content-section">
+            <div class="container">
+                <h1>نموذج التسجيل في دورة تدريبية</h1>
+                <form action="submit_form.php" method="post" class="registration-form">
+                    <label for="name">الاسم الكامل:</label>
+                    <input type="text" id="name" name="name" placeholder="أدخل اسمك الكامل" required>
+    
+                    <label for="email">البريد الإلكتروني:</label>
+                    <input type="email" id="email" name="email" placeholder="أدخل بريدك الإلكتروني" required>
+    
+                    <label for="phone">رقم الهاتف:</label>
+                    <input type="tel" id="phone" name="phone" placeholder="أدخل رقم هاتفك" required>
+    
+                    <label for="course">اختر الدورة:</label>
+                    <select id="course" name="course" required>
+                        <option value="" disabled selected>اختر الدورة التي ترغب بها</option>
+                        <option value="solar_basics">أساسيات الطاقة الشمسية</option>
+                        <option value="solar_design">تصميم وصيانة أنظمة الطاقة الشمسية</option>
+                        <option value="solar_engineers">تخصص الطاقة الشمسية للمهندسين</option>
+                        <option value="wind_turbines">توربينات الرياح</option>
+                        <option value="thermal_power">تشغيل وصيانة محطة الطاقة الشمسية</option>
+                    </select>
+    
+                    <button type="submit" class="btn-submit">أرسل الطلب</button>
+                </form>
+            </div>
+        </section>
+    </body>
+    </html>
+    
+
+
+
+
+
+
+
+
+
+
+
+
+    <footer>
+        <div class="footer-container">
+            <!-- روابط سريعة -->
+            <div class="footer-links">
+                <ul>
+                    <li><a href="#about">من نحن</a></li>
+                    <li><a href="#contact">اتصل بنا</a></li>
+                </ul>
+            </div>
+
+            <!-- روابط التواصل الاجتماعي -->
+            <div class="social-media">
+                <a href="https://www.facebook.com" target="_blank" class="social-icon"><i
+                        class="fab fa-facebook"></i></a>
+                <a href="https://www.instagram.com" target="_blank" class="social-icon"><i
+                        class="fab fa-instagram"></i></a>
+                <a href="https://www.twitter.com" target="_blank" class="social-icon"><i class="fab fa-twitter"></i></a>
+                <a href="https://www.linkedin.com" target="_blank" class="social-icon"><i
+                        class="fab fa-linkedin"></i></a>
+            </div>
+
+            <!-- حقوق الملكية -->
+            <div class="footer-rights">
+                <p>جميع الحقوق محفوظة لموقع <a href="#">طاقة+</a> &copy; 2024</p>
+            </div>
+        </div>
+    </footer>
